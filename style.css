@@ -12,6 +12,11 @@ body {
   font-family: "Euphoria Script", cursive;
   font-weight: 400;
   font-style: normal;
+  font-size: 200% !important;
+}
+
+h1#daily {
+  font-size: 48px;
 }
 
 header {
@@ -51,6 +56,14 @@ h1 {
   text-align: right;
 }
 
+.menu2 .item {
+  margin-right: 40px;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
 .menu li {
   display: inline-block;
   margin-right: 15px;
@@ -81,11 +94,29 @@ h1 {
   height: auto;
 }
 
-.container {
+.container-box {
   display: flex;
   justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 20px;
 }
 
+.container {
+  width: calc(33.33% - 10px);
+  background-color: #FCD7DA;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.container:last-child {
+  margin-right: 0;
+}
+
+.container1, .container2, .container3{
+  margin: 0;
+}
 .box {
   width: 75%;
   background-color: #FCD7DA;
@@ -112,9 +143,7 @@ h1 {
 .title-right {
   color: #F58F9A;
   text-align: right;
-  font-family: "Courgette", cursive;
-  font-weight: 400;
-  font-style: normal;  
+
 }
 
 .subtitle-left {
@@ -134,5 +163,34 @@ h1 {
   padding: 5px 10px;
   text-decoration: none;
   text-align: right;
-  border-radius: 32px;
+  border-top-left-radius: 32px;
+}
+
+.clear-boxes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.clear-box {
+  width: 25%;
+  background-color: #F3E2E8;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 10px #9c9c9c;
+  display: flex;
+
+}
+
+.clear-box img {
+  width: 45%;
+  margin-right: 20px;
+  order: 2;
+}
+
+.clear-box-text {
+  flex: 1;
+  text-align: left;
+  order: 1;
 }
