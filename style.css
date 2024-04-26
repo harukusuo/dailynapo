@@ -1,7 +1,17 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Croissant One", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #F9EBF2;
+
+}
+
+.daily{
+  font-family: "Euphoria Script", cursive;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
@@ -29,7 +39,7 @@ h1 {
   transform: translate(-50%, -50%);
 }
 
-.separator {
+.barra {
   height: 5px;
   background-color: #3C363B;
   border-radius: 2.5px;
@@ -46,12 +56,12 @@ h1 {
   margin-right: 15px;
 }
 
-.menu-item {
+.item {
   color: #F58F9A;
   text-decoration: none;
 }
 
-.menu-item:hover {
+.item:hover {
   text-decoration: underline;
 }
 
@@ -78,7 +88,7 @@ h1 {
 
 .box {
   width: 75%;
-  background-color: #F9EBF2;
+  background-color: #FCD7DA;
   padding: 20px;
   box-sizing: border-box;
   margin-right: 20px;
@@ -89,12 +99,12 @@ h1 {
   margin-right: 0;
 }
 
-.title {
+.titulo {
   margin: 0;
   font-size: 24px;
 }
 
-.subtitle {
+.subtitulo {
   margin: 10px 0;
   font-size: 18px;
 }
@@ -102,6 +112,9 @@ h1 {
 .title-right {
   color: #F58F9A;
   text-align: right;
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;  
 }
 
 .subtitle-left {
@@ -109,16 +122,17 @@ h1 {
   text-align: left;
 }
 
-.text {
+.texto {
   color: #3C363B;
   text-align: justify;
 }
 
-.read-more {
+.lermais {
   display: inline-block;
   background-color: #F58F9A;
   color: #3C363B;
   padding: 5px 10px;
   text-decoration: none;
   text-align: right;
+  border-radius: 32px;
 }
